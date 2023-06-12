@@ -13,7 +13,7 @@ syntax sync minlines=100
 
 " {{{1 Headers
 
-for s:i in range(1,6)
+for s:i in range(1,11)
   execute 'syntax match wikiHeader' . s:i
         \ . ' /^#\{' . s:i . '}\zs[^#].*/'
         \ . ' contains=@Spell,wikiHeaderChar,wikiTodo,@wikiLink'
@@ -21,14 +21,14 @@ endfor
 syntax match wikiHeaderChar contained /^#\+/
 
 let s:gcolors = {
-      \ 'light' : ['#aa5858','#507030','#1030a0','#103040','#505050','#636363'],
-      \ 'dark' : ['#e08090','#80e090','#6090e0','#c0c0f0','#e0e0f0','#f0f0f0']
+      \ 'light' : ['#aa5858','#507030','#1030a0','#6fdadc','#fddc77','#505050','#636363'],
+      \ 'dark' : ['#e08090','#80e090','#6090e0','#6fdadc','#fddc77','#ca83ad','#8775bc','#e79239','#c9b9aa','#f0f0f0']
       \}
 let s:ccolors = {
-      \ 'light' : ['DarkRed','DarkGreen','DarkBlue','Gray','DarkGray','Black'],
-      \ 'dark' : ['Red','Green','Blue','Gray','LightGray','White']
+      \ 'light' : ['DarkRed','DarkGreen','DarkBlue','Gray','Yellow','Black'],
+      \ 'dark' : ['Red','Green','Blue','LightCyan','Yellow','Magenta','White','Blue','Black','Black']
       \}
-for s:i in range(6)
+for s:i in range(10)
   execute 'highlight default wikiHeader' . (s:i + 1)
         \ 'gui=bold term=bold cterm=bold'
         \ 'guifg='   . s:gcolors[&background][s:i]
