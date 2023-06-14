@@ -229,7 +229,7 @@ highlight default link wikiList Identifier
 highlight default link wikiListTodo Comment
 highlight default link wikiListTodoDone Comment
 highlight default link wikiListTodoPartial Comment
-highlight wikiListTodo cterm=bold gui=bold
+"highlight wikiListTodo cterm=bold gui=bold
 highlight wikiListTodoPartial cterm=none gui=none
 
 " }}}1
@@ -258,7 +258,7 @@ execute 'syntax match wikiItalicBold'
       \ '/' . wiki#rx#bold . '/'
       \ 'contains=wikiConcealBold,wikiConcealItalic,@Spell contained'
 
-highlight default wikiBold cterm=bold gui=bold
+highlight default wikiBold cterm=bold gui=bold ctermfg=lightyellow guifg=lightyellow
 highlight default wikiItalic cterm=italic gui=italic
 highlight default wikiBoldItalic cterm=italic,bold gui=italic,bold
 highlight default link wikiItalicBold wikiBoldItalic

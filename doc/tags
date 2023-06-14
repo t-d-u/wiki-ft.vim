@@ -1,0 +1,13 @@
+<plug>(wiki-ac)	wiki-ft.txt	/*<plug>(wiki-ac)*
+<plug>(wiki-ic)	wiki-ft.txt	/*<plug>(wiki-ic)*
+wiki-ft	wiki-ft.txt	/*wiki-ft*
+wiki-ft-contents	wiki-ft.txt	/*wiki-ft-contents*
+wiki-ft-intro	wiki-ft.txt	/*wiki-ft-intro*
+wiki-ft-mappings	wiki-ft.txt	/*wiki-ft-mappings*
+wiki-ft-mappings-default	wiki-ft.txt	/*wiki-ft-mappings-default*
+wiki-ft-mappings-text-obj	wiki-ft.txt	/*wiki-ft-mappings-text-obj*
+wiki-ft-syntax	wiki-ft.txt	/*wiki-ft-syntax*
+wiki-ft-syntax-code	wiki-ft.txt	/*wiki-ft-syntax-code*
+wiki-ft-syntax-common	wiki-ft.txt	/*wiki-ft-syntax-common*
+wiki-ft-syntax-links	wiki-ft.txt	/*wiki-ft-syntax-links*
+wiki-ft.txt	wiki-ft.txt	/*wiki-ft.txt*
