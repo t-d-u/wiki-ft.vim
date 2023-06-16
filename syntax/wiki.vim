@@ -260,7 +260,7 @@ execute 'syntax match wikiItalicBold'
 
 highlight default wikiBold cterm=bold gui=bold ctermfg=lightyellow guifg=lightyellow
 highlight default wikiItalic cterm=italic gui=italic
-highlight default wikiBoldItalic cterm=italic,bold gui=italic,bold
+highlight default wikiBoldItalic cterm=italic,bold gui=italic,bold ctermfg=lightyellow guifg=lightyellow
 highlight default link wikiItalicBold wikiBoldItalic
 
 " }}}1
