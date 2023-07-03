@@ -259,7 +259,7 @@ execute 'syntax match wikiItalicBold'
       \ 'contains=wikiConcealBold,wikiConcealItalic,@Spell contained'
 
 highlight default wikiBold cterm=bold gui=bold ctermfg=lightyellow guifg=lightyellow
-highlight default wikiItalic cterm=italic gui=italic
+highlight default wikiItalic cterm=italic gui=italic ctermfg=lightyellow guifg=lightyellow
 highlight default wikiBoldItalic cterm=italic,bold gui=italic,bold ctermfg=lightyellow guifg=lightyellow
 highlight default link wikiItalicBold wikiBoldItalic
 
