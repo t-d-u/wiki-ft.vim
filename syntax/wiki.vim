@@ -1,5 +1,6 @@
 " A simple Vim ftplugin for .wiki files
 "
+"""""""gracias lervag me cambiaste la vida
 " Maintainer: Karl Yngve Lervåg
 " Email:      karl.yngve@gmail.com
 " License:    MIT license
